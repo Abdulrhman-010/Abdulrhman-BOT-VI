@@ -265,14 +265,14 @@ async def format_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     platform_info = context.user_data.get('platform_info')
     
     if not url:
-        await query.edit_message_text("❌ صارت مشكله وينا فيه؟؟")
+        await query.edit_message_text("❌ ]. دز يبوي ما ضبط معي")
         return
     
     format_type = query.data.replace('format_', '')
     
     # رسالة المعالجة
     await query.edit_message_text(
-        f"⏳ جاري تحميل {format_type} من {platform_info['name']}...\nاصبر شوي وينا فييييه يبوي؟؟ 🕐"
+        f"⏳ اصبر شوي ويننننا فيييه يبوووي؟؟ {format_type} من {platform_info['name']}...\n 🕐"
     )
     
     # إرسال إشارة "جاري الكتابة"

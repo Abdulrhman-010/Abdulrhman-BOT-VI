@@ -1,0 +1,23 @@
+# بيئة افتراضية
+venv/
+env/
+.env
+
+# ملفات البايت
+__pycache__/
+*.py[cod]
+
+# ملفات الوسائط المحملة (للتأكد من عدم رفعها)
+*.mp4
+*.mp3
+*.jpg
+*.png
+downloads/
+
+# سجلات
+*.log
+
+# أخرى
+.DS_Store
+.idea/
+.vscode/

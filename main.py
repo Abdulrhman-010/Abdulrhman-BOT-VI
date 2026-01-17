@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 🎬 بوت تحميل الوسائط من السوشل ميديا
-Bot Name: @vD7m01_Bot
-Version: 1.0.0
+Bot Name: @Abdulrhman_Bot
+Version: 2.0.0
 """
 
 import logging
